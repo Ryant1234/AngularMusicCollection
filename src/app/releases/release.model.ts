@@ -2,14 +2,14 @@
 export class Release {
 
 
-    constructor(id: Number,
+    constructor(id: number,
 artistId: number,
 name: string,
 genres: string[] ,
 format: string[],
-playTime: string,
+playTime: number,
 albumArt: string,
-ReleaseDate: Date ) {}
+ReleaseDate: number ) {}
 
 
 

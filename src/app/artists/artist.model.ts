@@ -1,4 +1,4 @@
-import {Album} from '../albums/album.model';
+import {Release} from '../releases/release.model';
 
 
 
@@ -9,7 +9,7 @@ export class Artist {
 constructor(id: Number,
 name: string,
 genres: string[],
- Albums: Album[] ,
+ releases: Release[] ,
 artistLogo : string,
 
 ) {}
