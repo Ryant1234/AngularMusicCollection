@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import {ArtistsComponent} from './artists/artists.component';
 import {ArtistComponent} from './artists/artist/artist.component';
-import {AlbumsComponent} from './albums/albums.component';
-import {AlbumComponent} from './albums/album/album.component';
+import {ReleasesComponent} from './releases/releases.component';
+import {ReleaseComponent} from './releases/release/release.component';
 
 
 import { AppComponent } from './app.component';
@@ -14,9 +14,9 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     ArtistComponent,
-    AlbumComponent,
+    ReleaseComponent,
     ArtistsComponent,
-    AlbumsComponent
+    ReleasesComponent
   ],
   imports: [
     BrowserModule

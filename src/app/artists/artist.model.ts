@@ -6,14 +6,14 @@ export class Artist {
 
 
 
-id: number
-name: string;
-genres: string[] 
- Albums: Album[] 
-format: string[]
-playTime: string;
-albumArt: string;
-ReleaseDate: Date; 
+constructor(id: Number,
+name: string,
+genres: string[],
+ Albums: Album[] ,
+artistLogo : string,
+
+) {}
+
 
 
 }
