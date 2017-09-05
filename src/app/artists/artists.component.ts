@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {ArtistsService} from './artists.service';
+import {Artist} from './artist.model';
+
 
 @Component({
   selector: 'app-artists',
@@ -6,10 +9,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./artists.component.css']
 })
 export class ArtistsComponent implements OnInit {
-
-  constructor() { }
+  artists: Artist[] = [];
+  
+  constructor(private artistsService : ArtistsService ) { }
 
   ngOnInit() {
+   this.artists = this.artistsService.getArtists(); 
   }
+
+
 
 }

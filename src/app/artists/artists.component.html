@@ -1,3 +1,12 @@
-<p>
-  artists works!
-</p>
+    
+    <div class="row">
+  <div class="col-xs-10">
+    
+    <ul class="list-group">
+      <a class="list-group-item" style="cursor: pointer" *ngFor="let artist of artists">
+        {{artist.name}} - {{artist.artistLogo}}</a>
+    </ul>
+  </div>
+  </div>
+
+    <!--    (click)="onSelectItem(item)" -->  

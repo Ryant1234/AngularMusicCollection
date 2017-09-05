@@ -7,7 +7,7 @@ artistId: number,
 name: string,
 genres: string[] ,
 format: string[],
-playTime: number,
+playTime: string,
 albumArt: string,
 ReleaseDate: number ) {}
 

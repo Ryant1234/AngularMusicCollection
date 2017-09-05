@@ -7,6 +7,9 @@ import {ReleasesComponent} from './releases/releases.component';
 import {ReleaseComponent} from './releases/release/release.component';
 
 
+import {ArtistsService} from './artists/artists.service';
+
+
 import { AppComponent } from './app.component';
 
 
@@ -21,7 +24,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ArtistsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
